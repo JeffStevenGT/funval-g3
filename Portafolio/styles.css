@@ -895,7 +895,7 @@ margin: 0;
 }
 
 .contacto-info {
-  background-color: #55e6a5;
+  background-color: #288058;
   color: #fff;
   padding: 30px;
   width: 40%;
@@ -941,7 +941,7 @@ margin: 0;
 }
 
 .contacto-form button {
-  background-color: #55e6a5;
+  background-color: #288058;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -951,7 +951,7 @@ margin: 0;
 }
 
 .contacto-form button:hover {
-  background-color: #39946d;
+  background-color: #3dad7d;
   font-weight: bold
 }
 
