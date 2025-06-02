@@ -114,12 +114,13 @@ h2 {
   animation: float 4s ease-in-out infinite;
   width: 170px;   
   height: 170px;  
+  margin-top: 20px;
 }
 .foto-perfil {
   width: var(--size); height: var(--size);
   border-radius: 50%;
   object-fit: cover;
-  border: 1px solid rgba(99, 102, 241, 0.3);
+  border: 1px solid #348864;
   transition: all 0.3s ease;
   width: 170px;   
   height: 170px; 
@@ -140,7 +141,7 @@ h2 {
   width: 20px;
   height: 20px;
   background: rgba(27, 28, 73, 0.493);
-  border: 1.7px solid #fff;
+  border: 2px solid #fff;
   border-radius: 100%;
   right: 10px;
   animation: pulse 2s infinite;
@@ -756,27 +757,6 @@ h4 {
 }
 
 
-/* dhdh
-h1rth
-ertert
-ert
-ert
-ert
-re
-tableert
-ert
-
-ert
-ert
-er
-tableert
-th
-
-h */
-
-
-
-
 ul {
   list-style: none;
 }
@@ -831,7 +811,7 @@ margin: 0;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  color: #4d4d4d;
+  color: #2e2e2e;
   background-color: #5ffdb6;
   transition: all 0.3s ease-in-out;
 }
