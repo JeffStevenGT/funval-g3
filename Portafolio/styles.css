@@ -24,7 +24,7 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 0px 407px 90px 407px;
-  margin-top: 85px;
+  margin-top: 130px;
 }
 #seccion2 {
   display: flex;
@@ -33,6 +33,8 @@ main {
   background: linear-gradient(#03042a, #16273f);
   gap: 25px;
   padding: 120px;
+  margin-top: 60px;
+  
 }
   /* Barra superior */  
   .contenedor-barra {
@@ -203,6 +205,7 @@ h2 {
   font-weight: 400;
   font-size: 70px;
   margin-bottom: -25px;
+  margin-top: 150px;
   
  }
 
@@ -260,7 +263,7 @@ h2 {
   font-size: 60px;
   line-height: 0.8;
   text-align: center;
-  margin-top: 250px;
+  margin-top: 300px;
   margin-bottom: 40px;
 }
 .card {
@@ -614,7 +617,7 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding-top: 160px;
+  padding-top: 300px;
 }
 .contenedor-tio1 {
   display: flex;
@@ -875,6 +878,99 @@ margin: 0;
  cursor: pointer;
 }
 
+/* CONTACTO */
+.container {
+  background-color: #fff;
+  display: flex;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 1035px;
+  font-family: "Zain";
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-top: 300px;
 
+}
 
+.contacto-info {
+  background-color: #55e6a5;
+  color: #fff;
+  padding: 30px;
+  width: 40%;
+  font-weight: 300;
+}
 
+.contacto-info h2 {
+  margin-top: 0;
+}
+
+.contacto-info p {
+  margin: 15px 0;
+  line-height: 1.4;
+}
+
+.contacto-info img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.contacto-form {
+  padding: 30px;
+  width: 60%;
+}
+
+.contacto-form h2 {
+  margin-top: 0;
+  color: #34495e;
+}
+
+.contacto-form p {
+  margin: 10px 0 20px;
+  color: #555;
+}
+
+.contacto-form input,
+.contacto-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contacto-form button {
+  background-color: #55e6a5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold  
+}
+
+.contacto-form button:hover {
+  background-color: #39946d;
+  font-weight: bold
+}
+
+.get-in-touch {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  
+}
+
+.contact-us {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.feel-free {
+  font-family: "Zain";
+  font-weight: 700;
+}
