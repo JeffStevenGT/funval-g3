@@ -139,9 +139,16 @@ const numeroExtremadamenteGrande = 575754785478090101010010101010101010101101010
 
 // 10. Comenta las líneas que produzcan algún tipo de error al ejecutarse
 
+let cita = true;
+let pagoTramiteVirtual = true;
+let pagoTramite = true;
+let bolsaViaje = true;
 
 
+let pasaporte = cita && (pagoTramiteVirtual || pagoTramite);
 
+let viajeInternacional = pasaporte && bolsaViaje;
 
+console.log(viajeInternacional);
 
 
