@@ -14,7 +14,7 @@ if (operacion === "1") {
 }   else if (operacion === "3") {
     let base = parseFloat(prompt("ingrese la base del triangulo "));
     let altura = parseFloat(prompt("ingrese la altura del triangulo "));
-    console.log("el area del triangulop es: " + (base * altura)/2);    
+    alert("el area del triangulop es: " + (base * altura)/2);    
 } else {
     alert("la opcion no es valida ._.! intenta nuevamente!")    
 }
