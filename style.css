@@ -57,14 +57,3 @@ a:hover {
   color: #fff;
 }
 
-
-@media (max-width: 500px) {
-  .aot-title {
-    font-size: 1.4rem;
-  }
-
-  a {
-    font-size: 0.85rem;
-    padding: 8px 12px;
-  }
-}
