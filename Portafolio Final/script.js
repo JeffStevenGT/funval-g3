@@ -46,4 +46,3 @@ new Swiper(".mySwiper", {
     }
   }
 });
-
