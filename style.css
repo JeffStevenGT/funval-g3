@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: 'Anton', sans-serif;
+  background: url('./img/1197845.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  backdrop-filter: brightness(0.85);
+}
+
+.titulo-encabezado {
+  font-size: 4rem;
+  color: #dcdcdc;
+  text-shadow: 2px 2px 8px #111;
+  margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+
+.container {
+  background: rgba(20, 20, 20, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(100, 100, 100, 0.3);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+
+a {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #e0e0e0;
+  text-decoration: none;
+  margin: 12px 0;
+  padding: 14px 20px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background 0.3s, transform 0.2s, border 0.3s;
+}
+
+a:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+  transform: translateY(-2px);
+  border: 1px solid #bbb;
+  color: #fff;
+}
+
+
