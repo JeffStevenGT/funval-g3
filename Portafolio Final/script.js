@@ -36,7 +36,7 @@ particlesJS("particles-js", {
 
 // Inicializar Swiper
 new Swiper(".mySwiper", {
-  slidesPerView: 1,
+  slidesPerView: 3,
   spaceBetween: 250,
   grabCursor: true,
   loop: true,
@@ -45,4 +45,18 @@ new Swiper(".mySwiper", {
       slidesPerView: 3
     }
   }
+});
+
+
+// Captura los enlaces del menú
+const links = document.querySelectorAll('.navbar a');
+const container = document.querySelector('.container');
+
+links.forEach(link => {
+  link.addEventListener('click', function (e) {
+    e.preventDefault();
+    const id = this.getAttribute('href');
+    const section = document.querySelector(id);
+    section.scrollIntoView({ behavior: 'smooth' });
+  });
 });
